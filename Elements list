@@ -1,0 +1,65 @@
+General:
+menu logo - XPATH - '//*[@id="root"]/div/div[1]/a/div/img'
+
+menu dashboard - XPATH - '//*[@id="root"]/div/div[1]/ul/div/div[1]/div[2]/div/div/div/li[1]/a/div'
+
+menu active - XPATH -'//*[@id="root"]/div/div[1]/ul/div/div[1]/div[2]/div/div/div/li[2]/a/div/p'
+
+menu mapping - XPATH - '//*[@id="root"]/div/div[1]/ul/div/div[1]/div[2]/div/div/div/li[3]/a/div/p'
+
+menu profiles - XPATH - '//*[@id="root"]/div/div[1]/ul/div/div[1]/div[2]/div/div/div/li[4]/a/div/img'
+
+menu devices - XPATH - '//*[@id="root"]/div/div[1]/ul/div/div[1]/div[2]/div/div/div/li[5]/a/div/p'
+
+menu logo - XPATH - '//*[@id="root"]/div/div[1]/a/div/img'
+
+menu login - CLASS_NAME - 'px-1.-decoration-none', XPATH - '//*[@id="root"]/div/div[2]/div[1]/div/ul[2]/li/a'
+
+logo - XPATH - '//*[@id="root"]/div/div[2]/div[1]/div/ul[1]/a/img'
+
+Dashboard:
+
+Complete Activation button - CLASS_NAME - 'btn.btn-primary.fw-bolder.circle-button.bg-danger.text-black.btn-lg.rounded-circle.mx-4.border.border-secondary.btn-block.text-center',
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[1]/button'
+
+Partial Activation button - CLASS_NAME - 'btn.btn-primary.fw-bolder.circle-button.bg-warning.text-black.btn-lg.rounded-circle.mx-4.border.border-secondary.btn-block.text-center'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/button'
+
+Complete Deactivation - CLASS_NAME - 'btn.btn-primary.fw-bolder.circle-button.bg-success.text-black.btn-lg.rounded-circle.mx-4.border.border-secondary.btn-block.text-center'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[3]/button'
+
+Active:
+
+Export to CSV - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.border-dark.fw-bold.fw-bold'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/button'
+
+Mapping:
+
+Export to CSV - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.border-dark.fw-bold.fw-bold'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/button'
+
+Map button - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.px-4.border-dark.fw-bolder'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div[1]/button[2]'
+
+Clear button - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.mx-4.px-4.border-dark.fw-bolder'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div[1]/button[1]'
+
+Profiles:
+
+Export to CSV - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.border-dark.fw-bold.fw-bold'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/button'
+
+Profiles are changing so no specific elements inside the table.
+
+Devices:
+
+Export to CSV - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.border-dark.fw-bold.fw-bold'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/button'
+
+Uninstall button - CLASS_NAME - 'btn.btn-light.btn-sm.rounded-0.border-dark.fw-bolder'
+XPATH - '//*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/table/tbody/tr[1]/td[9]/button'
+
+Activate button - CLASS_NAME - 'btn.btn-warning.btn-sm.rounded-0.border-dark.fw-bolder'
+XPATH - '//*[@id="activateButton"]'
+
+Devices are changing so no specific elements inside the table.
